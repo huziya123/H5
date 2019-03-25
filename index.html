@@ -13,6 +13,9 @@
 
   <body>
     <div id="app">
+      <div id="time ">
+        <img src="./imgs/加载页面3.gif" alt="" id="wel">
+      </div>
       <div id="dream">
         <div id="dianji-shou"></div>
         <div id="dianji"></div>
@@ -123,6 +126,7 @@
         $("#pg0").css("display", "none");
         setTimeout(function() {
           $("#time").css("display", "none");
+          $("#wel").css("display","none")
           $("#dream").css("display", "block");
           audio.play();
           $("#sound").css("display", "block");

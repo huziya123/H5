@@ -35,13 +35,12 @@ img {
 #time {
   width: 100%;
   height: 100%;
-  left: 0%;
-  top: 0%;
-  position: absolute;
-  background: url("./imgs/加载页面3.gif") no-repeat center;
-  background-size: auto 100%;
-
   z-index: 999;
+}
+
+#wel{
+  width: 100%;
+  height: 100%;
 }
 
 #dream {
@@ -249,7 +248,7 @@ img {
   background-size: auto 100%;
   z-index: 999;
   display: none;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 #b2 {
   width: 100%;
